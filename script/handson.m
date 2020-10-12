@@ -1,0 +1,9 @@
+m=25;
+a=-3;
+b=4;
+Ts=0.01;
+kp=30;
+ki=70;
+t=0:0.01:10;
+t=t'
+stin = [zeros(floor((length(t)/2)+1),1) ; 5*ones(floor(length(t)/2),1)];
